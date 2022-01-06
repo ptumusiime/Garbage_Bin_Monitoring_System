@@ -1,0 +1,18 @@
+{
+  "name": "garbage_monitoring_system",
+  "version": "1.0.0",
+  "description": "Garbage Monitoring System",
+  "main": "wot_server.js",
+  "scripts": {
+    "test": "node wot_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ptumusii"
+  },
+  "author": "Patrick Tumusiime & Patrick Nzabamwita",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}

@@ -1,0 +1,86 @@
+{
+    "pi":
+    {
+        "name" : "Smart Garbage Bin Monitoring System",
+        "description" : "An IoT System that uses Ultrasonic Sensors to Monitor the level of Garbage in the Different Bin Compartments",
+        "port": "3000",
+        "sensors": 
+        {
+            "distance":
+            {
+            "ultrasonic_1":
+            {
+                "name": "Ultrasonic Sensor 1",
+                "description": "A sensor that measures the distance of a target object by emitting ultrasonic sound waves",
+                "value": 100,  
+                "gpio1": 23,
+                "gpio2": 24
+            },
+            "ultrasonic_2":
+            {
+                "name": "Ultrasonic Sensor 2",
+                "description": "A sensor that measures the distance of a target object by emitting ultrasonic sound waves",
+                "value": 100,  
+                "gpio1": 12,
+                "gpio2": 16
+            },
+            "ultrasonic_3":
+            {
+                "name": "Ultrasonic Sensor 3",
+                "description": "A sensor that measures the distance of a target object by emitting ultrasonic sound waves",
+                "value": 100,  
+                "gpio1": 27,
+                "gpio2": 17
+            }
+            }
+        },
+        "actuators":
+        {
+            "leds": 
+            {
+                "led_1":
+                {
+                    "name": "Compartment 1 Red LED",
+                    "description": "Red Led Light to indicate the the garbage bin compartment is full",
+                    "value": false,
+                    "gpio" : 4
+                },
+                "led_2":
+                {
+                    "name": "Compartment 1 Green LED ",
+                    "description": "Green Led Light to indicate the the garbage bin compartment is Empty",
+                    "value": false,
+                    "gpio": 7
+                },
+                "led_3":
+                {
+                    "name": "Compartment 2 Red LED",
+                    "description": "Red Led Light to indicate the the garbage bin compartment is full",
+                    "value": false,
+                    "gpio": 5
+                },
+                "led_4":
+                {
+                    "name": "Compartment 2 Green LED",
+                    "description": "Green Led Light to indicate the the garbage bin compartment is Empty",
+                    "value": false,
+                    "gpio": 6
+                },
+                "led_5":
+                {
+                    "name": "Compartment 3 Red LED",
+                    "description": "Red Led Light to indicate the the garbage bin compartment is full",
+                    "value": false,
+                    "gpio": 13
+                },
+                "led_6":
+                {
+                    "name": "Compartment 3 Green LED",
+                    "description": "Green Led Light to indicate the the garbage bin compartment is Empty",
+                    "value": false,
+                    "gpio": 26
+                }
+            }
+        }
+    }
+}
