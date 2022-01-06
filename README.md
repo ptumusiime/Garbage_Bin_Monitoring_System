@@ -28,7 +28,7 @@
 &nbsp;
 
 **Project Fritzing Model**
-![](Images/fritzing model_Garbage_bin_monitoring_system.png)
+![](Images/fritzing_model_Garbage_bin_monitoring_system.png)
 &nbsp;
 
 **Project Resource Tree**
@@ -37,4 +37,6 @@
 &nbsp;
 
 **Project Physical Wiring**
+
+&nbsp;
 ![](Images/Implementation_Wiring.png)
