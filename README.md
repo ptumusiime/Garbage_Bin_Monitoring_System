@@ -20,3 +20,22 @@
 &nbsp;
 ### A GPS sensor is attached to each garbage bin to track its exact location by reading
 ### the latitude and longitude coordinates from the GPS sensor.
+
+**Project Schenario Image Representation**
+
+<img
+src=“https://user-images.githubusercontent.com/86765753/148456801-0e141cec-627b-4357-8c9f-5fcd1390484d.png
+”
+raw=true
+alt=“
+**Project Schenario Image Representation**”
+style=“margin-right: 10px;”
+/>
+
+&nbsp;
+
+**Project Fritzing Model**
+https://user-images.githubusercontent.com/86765753/148456829-28a63d1b-ad3a-4cee-9d22-38c4cd5f553e.png
+
+**Project Physical Wiring**
+https://user-images.githubusercontent.com/86765753/148456801-0e141cec-627b-4357-8c9f-5fcd1390484d.png
